@@ -1,0 +1,119 @@
+.topnav{
+  width: 100%;
+  height: 6vh;
+  background-color: white;
+  /* color: white; */
+  
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+/* sidnav */
+.sidnav{
+  background-color: rgb(20, 27, 89);
+  width: 230px;
+  height: 100vh;
+
+  overflow: hidden;
+}
+.sidnav:hover{
+  transition: 0.7s;
+  overflow: scroll;
+ 
+}
+.sidenavimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.onenormalbuttoninsidenav{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  
+}
+.onenormalbuttoninsidenav:hover{
+  background-color: rgba(1, 36, 232, 0.381);
+transition: all linear 0.3s;
+}
+
+/* Apply custom scrollbar to specific div */
+.sidnav::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.sidnav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidnav::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.sidnav {
+  scrollbar-width: thin;  /* For Firefox */
+  scrollbar-color: white transparent;  /* For Firefox */
+}
+
+/* outletholder */
+.outletholder{
+  height: 94vh;
+  overflow: auto;
+}
+
+/* dashboard */
+
+.shape1idashboard{
+  width: 24%;
+  padding: 10px;
+}
+.themiddlethatwantheight{
+  min-height: 200px;
+}
+.hroflongline{
+  width: 40%;
+}
+.oneinputinprofile{
+  width: 48%;
+  border: none; 
+  outline: none;
+  padding: 10px;
+  border-bottom: dotted 2px gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profileeditbutton{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(20, 27, 89);
+  border: none;
+  border-radius: 50%;
+  color: rgb(146, 134, 134);
+}
+
+/* coursereg */
+.thebottom{
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+
+}
+.thebottomselect{
+width: 80%;
+padding: 10px;
+border: none;
+border-bottom: 1px solid black;
+}
+
+/*  */
+.firstthingintable{
+  width: fit-content;
+}
